@@ -31,7 +31,7 @@ public class sw2 {
 	 * @throws ClassNotFoundException 
 	 */
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
-		
+		System.out.println("--");
 	     UIManager.setLookAndFeel("com.birosoft.liquid.LiquidLookAndFeel");  
 	     LiquidLookAndFeel.setLiquidDecorations(true); 
 		EventQueue.invokeLater(new Runnable() {
